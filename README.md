@@ -1,1 +1,2 @@
-### This is the repository to learn AI ML stating from Numpy library
+### This is the repository to learn AI ML starting from Numpy library   
+
