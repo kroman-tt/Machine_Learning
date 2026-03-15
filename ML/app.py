@@ -15,7 +15,7 @@ attendence = st.number_input("Attendence")
 
 ## prediction button
 if st.button("Predict"):
-    input_data = np.array[[study_hours, attendence]]
+    input_data = np.array([[study_hours, attendence]])
     scaled_input = scaler.transform(input_data)
     prediction = model.predict(scaled_input)
 

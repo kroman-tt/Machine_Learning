@@ -3,8 +3,8 @@ import numpy as np
 import joblib
 import pandas as pd
 
-model = joblib.load("heart_disease_classfier.pkl")
-scaler = joblib.load("scaler.pkl")
+model = joblib.load("heart_disease_classifier.pkl")
+scaler = joblib.load("scaler_heart.pkl")
 model_columns = joblib.load("model_columns.pkl")
 
 
